@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Pokémon API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article class="pagina">
+        <noscript>
+            <p>Esta página precisa de Javascript para funcionar corretamente.</p>
+        </noscript>
+        <header>
+            <h1 class="pagina-nome">Pokémon API</h1>
+        </header>
+        <div id="pokemons">
+            <p>Aguarde enquanto a lista de Pokémons é carregada.</p>
+        </div>
+        <footer class="pagina-footer">
+            <p class="pagine-detalhe">Informações em <a href="https://pokeapi.co/">pokeapi.co</a></p>
+        </footer>
+    </article>
+    <div id="pokemon-template" style="display: none;">
+        <article class="pokemon grupo-de-itens">
+            <h1 class="pokemon-nome"></h1>
+            <img class="pokemon-imagem" src="" alt="">
+        </article>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
